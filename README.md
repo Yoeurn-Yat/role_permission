@@ -27,8 +27,6 @@ php artisan migrate
 
 php artisan install:api --passport
 
-php artisan passport:install
-
 php artisan key:generate
 
 php artisan migrate:fresh
