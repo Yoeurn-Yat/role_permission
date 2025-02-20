@@ -31,6 +31,8 @@ php artisan key:generate
 
 php artisan migrate:fresh
 
+php artisan passport:keys
+
 php artisan passport:client --personal
 
 php artisan serve
