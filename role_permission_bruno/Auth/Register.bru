@@ -1,0 +1,21 @@
+meta {
+  name: Register
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{local}}/register
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name":"User",
+    "username":"user",
+    "email":"user@gmail.com",
+    "password":"12345678",
+    "confirm_password":"12345678"
+  }
+}
