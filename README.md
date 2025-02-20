@@ -13,11 +13,17 @@ php artisan install:api
 
 //install spatie
 composer require spatie/laravel-permission
+
 php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider"
+
 php artisan migrate
+
 //install passport
+
 composer require laravel/passport
+
 php artisan migrate
+
 php artisan passport:install
 
 php artisan key:generate
