@@ -25,6 +25,8 @@ composer require laravel/passport
 
 php artisan migrate
 
+php artisan install:api --passport
+
 php artisan passport:install
 
 php artisan key:generate
