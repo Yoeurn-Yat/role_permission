@@ -12,6 +12,7 @@ Or run cammand
 php artisan install:api
 
 //install spatie
+
 composer require spatie/laravel-permission
 
 php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider"
